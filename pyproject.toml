@@ -16,6 +16,7 @@ dependencies = [
 [dependency-groups]
 dev = [
     "ipykernel>=7.3.0",
+    "langgraph-cli[inmem]>=0.4.31",
 ]
 [tool.setuptools.packages.find]
 where = ["src"]
